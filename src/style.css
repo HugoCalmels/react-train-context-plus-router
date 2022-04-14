@@ -1,0 +1,32 @@
+
+html, body{
+  margin: 0;
+  height: 100vh;
+
+}
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+
+.navbar{
+  border: 6px solid cyan;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1rem;
+}
+
+main {
+  border :6px solid lime;
+  padding: 2rem;
+}
+
+.page {
+  border: 6px solid magenta;
+}
+
+.card {
+  border: 6px solid black;
+}
